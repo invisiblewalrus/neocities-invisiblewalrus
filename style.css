@@ -1,9 +1,50 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+ /* background textures from https://www.deviantart.com/nuxlystardust-stock */
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+  background-color: black;
+  font-family: 'Book Antiqua';
+}
+
+.place-page-container {
+  margin: 20px 10px;
+  /* might want to make this a fixed width, gets pretty big */
+}
+
+.place-page {
+  padding: 20px;
+}
+.place-page-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.place-page-text {
+  background-color: rgba(248, 231, 202, 0.5);
+  border-style: double;
+  padding: 0px 5px;
+  margin-top: 5px;
+}
+
+.grass-background {
+  background-image: url("/images/grass-background-texture.jpg");
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  background-image: url("/images/gold-backround-texture.jpg");
+  padding: 20px;
+}
+
+.wood-border {
+  border: ridge rgb(128, 81, 67) 12px;
+  /* try to get wood texture for borders */
+}
+
+.title {
+  font-size: 50px;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+  color: rgba(0, 0, 0, 0.25);
 }
