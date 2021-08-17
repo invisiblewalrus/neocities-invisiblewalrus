@@ -56,7 +56,8 @@ body {
 
 .place-page-container {
   margin: 20px 10px;
-  /* might want to make this a fixed width, gets pretty big */
+  display: flex;
+  justify-content: center;
 }
 
 .place-page {
