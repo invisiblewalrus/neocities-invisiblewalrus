@@ -31,11 +31,11 @@ body {
 }
 
 .grass-background {
-  background-image: url("/images/grass-background-texture.jpg");
+  background-image: url("images/grass-background-texture.jpg");
 }
 
 .tile-background {
-  background-image: url("/images/tile-background-texture.jpg");
+  background-image: url("images/tile-background-texture.jpg");
 }
 
 .wood-border {
@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/gold-backround-texture.jpg");
+  background-image: url("images/gold-backround-texture.jpg");
   padding: 20px;
 }
 
