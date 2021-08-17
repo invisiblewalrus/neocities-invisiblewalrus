@@ -5,6 +5,55 @@ body {
   font-family: 'Book Antiqua';
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: right;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.grass-background {
+  background-image: url("/images/grass-background-texture.jpg");
+}
+
+.tile-background {
+  background-image: url("/images/tile-background-texture.jpg");
+}
+
+.wood-border {
+  border: ridge rgb(128, 81, 67) 12px;
+  /* try to get wood texture for borders */
+}
+
+.header {
+  background-image: url("/images/gold-backround-texture.jpg");
+  padding: 20px;
+}
+
+.title {
+  font-size: 50px;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
 .place-page-container {
   margin: 20px 10px;
   /* might want to make this a fixed width, gets pretty big */
@@ -13,38 +62,24 @@ body {
 .place-page {
   padding: 20px;
 }
-.place-page-image-container {
-  display: flex;
-  justify-content: center;
-}
 
 .place-page-text {
-  background-color: rgba(248, 231, 202, 0.5);
+  background-color: rgba(248, 231, 202, 0.75);
   border-style: double;
   padding: 0px 5px;
   margin-top: 5px;
 }
 
-.grass-background {
-  background-image: url("/images/grass-background-texture.jpg");
+.navigation-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
 }
 
-.header-container {
-  display: flex;
-  justify-content: center;
-}
-.header {
-  background-image: url("/images/gold-backround-texture.jpg");
-  padding: 20px;
+.navigation-grid > *:first-child {
+  text-align: right;
 }
 
-.wood-border {
-  border: ridge rgb(128, 81, 67) 12px;
-  /* try to get wood texture for borders */
-}
-
-.title {
-  font-size: 50px;
-  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
-  color: rgba(0, 0, 0, 0.25);
+.navigation-center {
+  padding: 10px 20px;
 }
