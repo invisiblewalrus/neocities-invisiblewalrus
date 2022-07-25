@@ -1,4 +1,4 @@
-html { 
+body { 
   background: url(./resources/images/jet-set-radio-future-4.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6,6 +6,8 @@ html {
   background-size: cover;
   font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
 }
+/* bug to fix: https://stackoverflow.com/questions/31793894/comic-sans-font-not-showing-on-mobile  */
+
 
 /* still want to apply this to background probably */
 .blur {
