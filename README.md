@@ -1,5 +1,3 @@
 # neocities-invisiblewalrus
 
-A project I am working on, hosted on neocities. A personal site styled after a text adventure game.
-
-Background textures from https://www.deviantart.com/nuxlystardust-stock
+A bit of a goofy personal site for me to mess around with aesthetics and act as a non-professional link hub
