@@ -4,28 +4,27 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("./resources/fonts/comic-sans-ms/comici.ttf");
 }
 /* bug to fix: https://stackoverflow.com/questions/31793894/comic-sans-font-not-showing-on-mobile  */
 
 
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:30px solid white; 
+}
+
 /* still want to apply this to background probably */
+/* or maybe vhs effect? */
 .blur {
   filter: blur(3px);
   -webkit-filter: blur(3px);
-}
-
-
-/* flex styles */
-.flex {
-  display: flex;
-}
-
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
-.right {
-  justify-content: right;
 }
