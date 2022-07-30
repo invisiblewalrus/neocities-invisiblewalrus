@@ -26,11 +26,64 @@ body {
   height: 0; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
-  border-right:30px solid white; 
+  border-right:30px solid white;
+  margin-top: 73px;
 }
 
 .title-image {
-  width: 25%;
+  width: 20%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* styling for the building */
+/*  */
+.building {
+  flex: 0 0 100px;
+  background-image: url(./resources/images/Pilotage-Stretcher-Architextures.jpg);
+  background-repeat: repeat;
+  background-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  padding: 20px;
+}
+
+.building-window {
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  border-bottom: 10px solid lightgray;
+  width: 60px;
+  height: 65px;
+  padding: 5px;
+}
+
+
+/* styling for the link cards */
+
+.link-card {
+  background-color: rgb(27, 0, 49);
+  padding: 25px 15px; 
+  border-style: ridge;
+  border-color: rgb(80, 41, 112);
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+a:link {
+  color: plum;
+}
+
+a:visited {
+  color: rgb(255, 153, 116)
+}
+
+a:active {
+  color: rgb(255, 77, 13)
+
 }
 
 /* styles that change on mobile */
@@ -39,7 +92,19 @@ body {
   .speech-bubble {
     font-size: x-large;
   }
+  .speech-bubble-tail {
+    margin-top: 55px;
+  }
   .title-image {
     width: 33%;
+  }
+
+  .building {
+    flex-basis: 50px;
+  }
+
+  .building-window {
+    width: 45px;
+    height: 50px;
   }
 }
