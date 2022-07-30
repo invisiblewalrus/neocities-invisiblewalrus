@@ -42,14 +42,14 @@ h2 {
 /*  */
 .building {
   flex: 0 0 100px;
-  background-image: url(./resources/images/Pilotage-Stretcher-Architextures.jpg);
+  background-image: url(./resources/images/seamless-red-brick-wall-texture.jpg);
   background-repeat: repeat;
-  background-size: 100px;
+  background-size: 50px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: center;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px;
 }
 
 .building-window {
@@ -69,7 +69,6 @@ h2 {
   padding: 20px; 
   border-style: ridge;
   border-color: rgb(80, 41, 112);
-  margin-bottom: 5px;
   margin-left: 5px;
 }
 
@@ -105,11 +104,6 @@ a:active {
 
   .building {
     flex-basis: 50px;
-  }
-
-  .building-window {
-    width: 45px;
-    height: 50px;
   }
 
   .link-card {
