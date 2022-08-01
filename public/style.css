@@ -56,6 +56,9 @@ h2 {
   background-color: rgb(255, 217, 0);
   display: flex;
   border-bottom: 10px solid lightgray;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
   width: 50px;
   height: 55px;
   padding: 5px;
@@ -69,7 +72,8 @@ h2 {
   padding: 20px; 
   border-style: ridge;
   border-color: rgb(80, 41, 112);
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -77,11 +81,11 @@ h2 {
 }
 
 a:link {
-  color: plum;
+  color: rgb(255, 153, 116)
 }
 
 a:visited {
-  color: rgb(255, 153, 116)
+  color: plum;
 }
 
 a:active {
@@ -107,6 +111,8 @@ a:active {
   }
 
   .link-card {
-    padding: 10px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
   }
 }
