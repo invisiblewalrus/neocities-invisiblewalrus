@@ -11,6 +11,17 @@ body {
   src: url("./resources/fonts/comic-sans-ms/comici.ttf");
 }
 
+a:link, a:visited {
+  color: rgb(255, 0, 0)
+}
+
+a:active {
+  
+
+}
+
+
+
 /* styling for the title */
 
 .speech-bubble {
@@ -30,31 +41,67 @@ body {
   margin-top: 73px;
 }
 
-.title-image {
-  width: 20%;
+.speech-bubble-body {
+  display: flex; 
+  align-items: flex-end; 
+  justify-content: space-between;
 }
 
-h2 {
-  margin-top: 0;
+.speech-bubble-text {
+  font-family: 'Comic Sans MS';
+}
+
+.speech-bubble-gif {
+  width: 40%;
+  height: auto;
+  margin-right: 15px;
+}
+
+.title-image {
+  width: 180px;
 }
 
 /* styling for the building */
-/*  */
-.building {
-  flex: 0 0 100px;
+.building-main {
+  display: flex;
+  width: 157px;
   background-image: url(./resources/images/seamless-red-brick-wall-texture.jpg);
   background-repeat: repeat;
   background-size: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
   justify-content: center;
-  padding: 0px 20px;
 }
+
+.building-top {
+  width: 150px;
+  height: 50px;
+  transform: skew(-20deg);
+  background-color: darkgrey;
+  border-style: solid;
+  border-color: gray;
+  margin-left: 10px;
+}
+
+.building-side {
+  width: 20px;
+  transform: skewY(-70deg);
+  background-image: url(./resources/images/seamless-red-brick-wall-texture.jpg);
+  background-repeat: repeat;
+  background-size: 50px;
+  margin-top: -29px;
+  margin-bottom: 27px;
+}
+
+.background-tint {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+
 
 .building-window {
   background-color: rgb(255, 217, 0);
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 10px solid lightgray;
   border-top: 2px solid white;
   border-left: 2px solid white;
@@ -62,57 +109,66 @@ h2 {
   width: 50px;
   height: 55px;
   padding: 5px;
+  margin: 40px;
+}
+
+.building-link {
+  color: black;
+  font-weight: 1000;
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+}
+
+.building-link:hover {
+  text-decoration: underline;
+}
+
+.selected {
+  text-decoration: underline;
 }
 
 
-/* styling for the link cards */
+/* styling for main content */
 
-.link-card {
-  background-color: rgb(27, 0, 49);
-  padding: 20px; 
+.content {
+  max-width: 1000px;
+  background-color: rgb(205, 159, 241);
   border-style: ridge;
   border-color: rgb(80, 41, 112);
   margin-left: 10px;
-  margin-bottom: 10px;
+  color: black;
 }
 
-h2 {
-  margin-bottom: 10px;
+
+.content-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: rgb(27, 0, 49);
+  color: white;
+  height: 4rem;
 }
 
-a:link {
-  color: rgb(255, 153, 116)
+
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
 
-a:visited {
-  color: plum;
+.pink {
+  background-color: fuchsia;
 }
 
-a:active {
-  color: rgb(255, 77, 13)
-
+.blue {
+  background-color: aqua;
 }
 
-/* styles that change on mobile */
-/* TODO make sure this is a good breakpoint */
-@media (max-width: 1000px) {
-  .speech-bubble {
-    font-size: x-large;
-  }
-  .speech-bubble-tail {
-    margin-top: 55px;
-  }
-  .title-image {
-    width: 33%;
-  }
-
-  .building {
-    flex-basis: 50px;
-  }
-
-  .link-card {
-    padding: 15px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-  }
+.orange {
+  background-color: rgb(255, 82, 13);
 }
+
+
+
