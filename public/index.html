@@ -9,91 +9,88 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <div style="position: relative;">
-      <!-- title -->
-      <div style="position: absolute; z-index: 2; top: 0px; left: 10px; display: flex;">
-        <img style="width: 180px;" src="./resources/images/Smeargle billboard.png">
-        <div class="speech-bubble-tail"></div>
-        <div class="speech-bubble">
-          <div style="display: flex; align-items: flex-end; justify-content: space-between;">
-            <div class="speech-bubble-text">im</div>
-            <img class="speech-bubble-gif" src="./resources/images/constructionpikachu.gif" />
-          </div>
-          <div class="speech-bubble-text">invisiblewalrus!!</div>
+    <!-- title -->
+    <div class="header">
+      <img class="title-image" src="./resources/images/Smeargle billboard.png">
+      <div class="speech-bubble-tail"></div>
+      <div class="speech-bubble">
+        <div class="speech-bubble-text-arrange">
+          <div class="speech-bubble-text">im</div>
+          <img class="speech-bubble-gif" src="./resources/images/constructionpikachu.gif" />
         </div>
+        <div class="speech-bubble-text">invisiblewalrus!!</div>
       </div>
-      <div style="position: absolute; z-index: 1; top: 150px; left: 0px; display: flex;">
-        <!-- building -->
-        <div>
-          <div class="building-top"></div>
-          <div style="display: flex;">
-            <div class="building-main">
-              <div>
-                <div class="building-window">
-                  <a class="building-link selected">
-                    about <br>
-                    me
-                  </a>
+    </div>
+    <div class="main">
+      <!-- building -->
+      <div>
+        <div class="building-top"></div>
+        <div class="flex">
+          <div class="building-main">
+            <!--remove this div and fix the building main class-->
+            <div>
+              <a href="./index.html">
+                <div class="building-window selected">
+                  about <br>
+                  me
                 </div>
+              </a>
+              <a>
                 <div class="building-window">
-                  <a class="building-link">
                     media <br>
                     log
-                  </a>
                 </div>
+              </a>
+              <a>
                 <div class="building-window">
-                  <a class="building-link">
                     my <br>
                     art
-                  </a>
                 </div>
+              </a>
+              <a>
                 <div class="building-window">
-                  <a class="building-link">
                     favs <br>
                     shrine
-                  </a>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="building-side background-tint"></div>
           </div>
+          <div class="building-side background-tint"></div>
         </div>
-        <div class="content">
-          <div class="content-title">
-              <h1>about me</h1>
-              <div style="display: flex;">
-                <div class="pink circle"></div>
-                <div class="blue circle"></div>
-                <div class="orange circle"></div>
-              </div>
-          </div>
-          <p>
-            hi! 
-            <br>
-            as you can tell from the title, im <b>invisiblewalrus</b> (aka <b>bongobillie, kat, or kate</b>), a rascally bug fan from minneapolis (soon to be philly). 
-            im making this site as an excuse to mess around with strange aesthetics/digital art/programming, and to create a weird little place for myself outside of social media.
-            it will probably shift a lot over time, but my current plan is to use the other pages as a place to compile the lists, collections, and art that i already keep scattered in a bunch of different locations.
-            you can find me on the internet the two main places that i still post regularly:
-            <br>
-            <b>cohost,</b> where i repost a bunch of art, and occasionally post about the media im currently obsessed with or share my own art
-            <br>
-            and <b>letterboxd</b>, where i rate every movie i watch, and sometimes even review them, imagine that!
-            <br>
-            anyway, heres some things about me:
-            <ul>
-              <li>pronouns: she/they/they/she/they/them</li>
-              <li>birthday: january 16</li>
-              <li>age: 27</li>
-              <li>hobbies: comics, (horror) movies, games, photography, sticker slapping</li>
-              <li>favorite color: purple</li>
-              <li>favorite animal: crow</li>
-              <li>favorite pokemon: smeargle</li>
-              <li>favorite book: one hundred years of solitude</li>
-              <li>favorite comics: hunter x hunter, claremont x-men</li>
-              <li>favorite movie: cat people (1942)</li>
-              <li>favorite game: hollow knight</li>
-            </ul>
-          </p>
+      </div>
+      <div class="content">
+        <div class="content-title">
+            <h1>about me</h1>
+            <div class="flex">
+              <div class="pink circle"></div>
+              <div class="blue circle"></div>
+              <div class="orange circle"></div>
+            </div>
+        </div>
+        <div class="content-text">
+          <h3>hi!</h3>
+          as you can tell from the title, im <b>invisiblewalrus</b> (aka <b>bongobillie</b>, <b>kat</b>, or <b>kate</b>), a rascally bug fan from minneapolis (soon to be philly). 
+          im making this site as an excuse to mess around with strange aesthetics/digital art/programming, and to create a weird little place for myself outside of social media.
+          it will probably shift a lot over time, but my current plan is to use the other pages as a place to compile the lists, collections, and art that i already keep
+          scattered in a bunch of different locations. you can find me on the internet the two main places that i still post regularly:
+          <ul>
+            <li><a class="content-link" href="https://cohost.org/invisiblewalrus?page=0">cohost</a>, where i repost a bunch of art (some nsfw), and occasionally post about the media im currently obsessed with or share my own art</li>
+            <li>and <a class="content-link" href="https://letterboxd.com/invisiblewalrus/">letterboxd</a>, where i rate every movie i watch, and sometimes even review them, imagine that!</li>
+          </ul>
+          anyway, heres some things about me:
+          <ul>
+            <li>pronouns: she/they/they/she/they/them</li>
+            <li>birthday: january 16</li>
+            <li>age: 27</li>
+            <li>hobbies: comics, (horror) movies, games, photography, sticker slapping</li>
+            <li>favorite color: purple</li>
+            <li>favorite animal: crow</li>
+            <li>favorite pokemon: smeargle</li>
+            <li>favorite book: one hundred years of solitude</li>
+            <li>favorite comics: hunter x hunter, claremont x-men</li>
+            <li>favorite movie: cat people (1942)</li>
+            <li>favorite game: hollow knight</li>
+          </ul>
         </div>
       </div>
     </div>
