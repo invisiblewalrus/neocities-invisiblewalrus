@@ -6,6 +6,11 @@ pageTemplate.innerHTML = `
       font-family: 'Comic Sans MS';
       src: url("/resources/fonts/comic-sans-ms/comici.ttf");
     }
+    
+    @font-face {
+      font-family: 'Exo 2';
+      src: url("./resources/fonts/Exo_2/Exo2-VariableFont_wght.ttf");
+    }
 
     .flex {
       display: flex;
@@ -114,7 +119,7 @@ pageTemplate.innerHTML = `
       color: white;
       font-weight: 1000;
       text-decoration: none;
-      font-family: 'Comic Sans MS';
+      font-family: 'Exo 2';
     }
 
     .building-window:hover, .building-window:active, .selected{
@@ -209,13 +214,18 @@ pageTemplate.innerHTML = `
               </a>
               <a>
                 <div class="building-window">
+                  album <br>
+                  chat
+                </div>
+              </a>
+              <a>
+                <div class="building-window">
                   my <br>
                   art
                 </div>
               </a>
               <a>
                 <div class="building-window">
-                  favs <br>
                   shrine
                 </div>
               </a>
