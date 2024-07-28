@@ -8,8 +8,17 @@
   src: url("./resources/fonts/Exo_2/Exo2-VariableFont_wght.ttf");
 }
 
+/* site colors 
+dark purple: rgb(27, 0, 49)
+purple: rgb(80, 41, 112)
+orange: rgb(255, 82, 13)
+blue: aqua
+pink: fuchsia
+*/
+
+/* tweak the background to work better on smaller screens */
 body { 
-  background: url(resources/images/jet-set-radio-future-4.jpg) no-repeat center center fixed; 
+  background: url(resources/images/jet-set-radio-future-4.jpg) repeat-y center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,7 +45,7 @@ a:hover, a:active {
   background-color: rgb(255, 184, 157, .95);
   padding: 2em;
   color: rgb(27, 0, 49);
-  max-width: 1000px;
+  max-width: 500em;
 }
 
 h1 {
