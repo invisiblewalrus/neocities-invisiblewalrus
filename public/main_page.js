@@ -4,7 +4,7 @@ pageTemplate.innerHTML = `
   <style>
     @font-face {
       font-family: 'Comic Sans MS';
-      src: url("/public/resources/fonts/comic-sans-ms/comici.ttf");
+      src: url("/resources/fonts/comic-sans-ms/comici.ttf");
     }
 
     .flex {
@@ -68,7 +68,7 @@ pageTemplate.innerHTML = `
     .building-main {
       display: flex;
       width: 157px;
-      background-image: url(/public/resources/images/seamless-red-brick-wall-texture.jpg);
+      background-image: url(/resources/images/seamless-red-brick-wall-texture.jpg);
       background-repeat: repeat;
       background-size: 50px;
       justify-content: center;
@@ -86,7 +86,7 @@ pageTemplate.innerHTML = `
     .building-side {
       width: 20px;
       transform: skewY(-70deg);
-      background-image: url(/public/resources/images/seamless-red-brick-wall-texture.jpg);
+      background-image: url(/resources/images/seamless-red-brick-wall-texture.jpg);
       background-repeat: repeat;
       background-size: 50px;
       margin-top: -29px;
@@ -178,12 +178,12 @@ pageTemplate.innerHTML = `
 
   <div>
     <div class="header">
-      <img class="title-image" src="/public/resources/images/Smeargle billboard.png">
+      <img class="title-image" src="/resources/images/Smeargle billboard.png">
       <div class="speech-bubble-tail"></div>
       <div class="speech-bubble">
         <div class="speech-bubble-text-arrange">
           <div class="speech-bubble-text">im</div>
-          <img class="speech-bubble-gif" src="/public/resources/images/constructionpikachu.gif" />
+          <img class="speech-bubble-gif" src="/resources/images/constructionpikachu.gif" />
         </div>
         <div class="speech-bubble-text">invisiblewalrus!!</div>
       </div>
@@ -195,13 +195,13 @@ pageTemplate.innerHTML = `
           <div class="building-main">
             <!--remove this div and fix the building main class-->
             <div>
-              <a href="/public/index.html">
+              <a href="/index.html">
                 <div class="building-window">
                   about <br>
                   me
                 </div>
               </a>
-              <a href="/public/media_log/2024/index.html">
+              <a href="/media_log/2024/index.html">
                 <div class="building-window">
                   media <br>
                   log
