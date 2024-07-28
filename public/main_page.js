@@ -79,8 +79,7 @@ pageTemplate.innerHTML = `
       height: 50px;
       transform: skew(-20deg);
       background-color: darkgrey;
-      border-style: solid;
-      border-color: gray;
+      border: solid gray;
       margin-left: 10px;
     }
 
@@ -121,7 +120,6 @@ pageTemplate.innerHTML = `
     .building-window:hover, .building-window:active, .selected{
       background-color: rgb(255, 217, 0);
       color: black;
-      text-decoration: underline;
     }
 
 
@@ -136,9 +134,9 @@ pageTemplate.innerHTML = `
     }
 
     .content {
+      display: flex;
       max-width: 1000px;
-      border-style: ridge;
-      border-color: rgb(80, 41, 112);
+      border: 5px outset rgb(80, 41, 112);
       margin-left: 10px;
       color: black;
     }
@@ -157,6 +155,7 @@ pageTemplate.innerHTML = `
 
     .circle {
       border-radius: 50%;
+      border-style: outset;
       width: 30px;
       height: 30px;
       margin-left: 10px;
@@ -226,19 +225,21 @@ pageTemplate.innerHTML = `
         </div>
       </div>
       <div class="content">
-        <div class="content-title">
-            <slot name="page-title"> 
-              <h1>title</h1> 
-            </slot>
-            <div class="flex">
-              <div class="pink circle"></div>
-              <div class="blue circle"></div>
-              <div class="orange circle"></div>
-            </div>
+        <div>
+          <div class="content-title">
+              <slot name="page-title"> 
+                <h1>title</h1> 
+              </slot>
+              <div class="flex">
+                <div class="pink circle"></div>
+                <div class="blue circle"></div>
+                <div class="orange circle"></div>
+              </div>
+          </div>
+          <slot name="page-content">
+            <div>text</div>
+          </slot>
         </div>
-        <slot name="page-content">
-          <div>text</div>
-        </slot>
       </div>
     </div>
   </div>
