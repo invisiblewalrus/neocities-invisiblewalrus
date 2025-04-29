@@ -206,10 +206,10 @@ pageTemplate.innerHTML = `
                   me
                 </div>
               </a>
-              <a href="/media_log/2024/index.html">
+              <a href="/top_tens/2024/index.html">
                 <div class="building-window">
-                  media <br>
-                  log
+                  top <br>
+                  tens
                 </div>
               </a>
               <a>
