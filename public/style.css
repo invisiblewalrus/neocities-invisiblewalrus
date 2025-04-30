@@ -16,7 +16,7 @@ blue: aqua
 pink: fuchsia
 */
 
-/* tweak the background to work better on smaller screens */
+/* tweak the background to work better on smaller screens, make content page shrink to fit content */
 body { 
   background: url(resources/images/jet-set-radio-future-4.jpg) repeat-y center center fixed; 
   -webkit-background-size: cover;
@@ -55,12 +55,19 @@ h1 {
 }
 
 h2 {
-  margin: 0em;
+  margin: 0em 0em .5em 0em;
 }
 
-ul {
-  list-style-type: none;
-}
 li {
   padding-top: .5em;
+}
+
+.unstlyled-list {
+  list-style: none;
+}
+
+.quote {
+  max-width: 30em;
+  font-style: italic;
+  text-align: center;
 }

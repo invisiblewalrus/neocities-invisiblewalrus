@@ -214,19 +214,8 @@ pageTemplate.innerHTML = `
               </a>
               <a>
                 <div class="building-window">
-                  album <br>
-                  chat
-                </div>
-              </a>
-              <a>
-                <div class="building-window">
                   my <br>
                   art
-                </div>
-              </a>
-              <a>
-                <div class="building-window">
-                  shrine
                 </div>
               </a>
             </div>
