@@ -71,3 +71,7 @@ li {
   font-style: italic;
   text-align: center;
 }
+
+.webring table{
+  background-color: darkblue;
+}
