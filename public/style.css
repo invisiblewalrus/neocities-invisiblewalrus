@@ -72,6 +72,7 @@ li {
   text-align: center;
 }
 
-.webring table{
-  background-color: darkblue;
+#abmap_ring table {
+  background-color: #c0c0c0 !important;
+  border: 15px outset #dadada !important;
 }
