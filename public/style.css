@@ -79,6 +79,7 @@ li {
   border-radius: 7px;
 }
 
+/* maybe add a second hover color (darker?) */
 #abmap_ring a {
   color: rgb(255, 82, 13);
 }

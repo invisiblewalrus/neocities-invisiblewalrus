@@ -72,7 +72,7 @@ pageTemplate.innerHTML = `
     /* styling for the building */
     .building-main {
       display: flex;
-      width: 157px;
+      width: 155px;
       background-image: url(/resources/images/seamless-red-brick-wall-texture.jpg);
       background-repeat: repeat;
       background-size: 50px;
