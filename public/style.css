@@ -46,6 +46,7 @@ a:hover, a:active {
   padding: 2em;
   color: rgb(27, 0, 49);
   max-width: 500em;
+  border-radius: 0px 0px 7px 7px;
 }
 
 h1 {
@@ -73,6 +74,11 @@ li {
 }
 
 #abmap_ring table {
-  background-color: #c0c0c0 !important;
-  border: 15px outset #dadada !important;
+  background-color: rgb(27, 0, 49) !important;
+  color: white;
+  border-radius: 7px;
+}
+
+#abmap_ring a {
+  color: rgb(255, 82, 13);
 }

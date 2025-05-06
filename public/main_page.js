@@ -22,7 +22,7 @@ pageTemplate.innerHTML = `
 
     /* styling for the title */
 
-    /* a bit of a janky way to set the header area to be on top of the main area, maybe change later*/
+    /* TODO a bit of a janky way to set the header area to be on top of the main area, maybe change later*/
     .header {
       position: absolute; 
       z-index: 2; 
@@ -142,6 +142,7 @@ pageTemplate.innerHTML = `
       display: flex;
       max-width: 1000px;
       border: 5px outset rgb(80, 41, 112);
+      border-radius: 12px;
       margin-left: 10px;
       color: black;
     }
@@ -151,6 +152,8 @@ pageTemplate.innerHTML = `
       justify-content: space-between;
       align-items: center;
       margin-top: -1px;
+      /*inner border radius is outer border radius - border width*/ 
+      border-radius: 7px 7px 0px 0px;
       padding: 0px 20px;
       background-color: rgb(27, 0, 49);
       color: white;
