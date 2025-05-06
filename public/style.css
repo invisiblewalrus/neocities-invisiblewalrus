@@ -83,6 +83,7 @@ li {
   color: rgb(255, 82, 13);
 }
 
+/* fix link stuff */
 #abmap_ring a:hover a:active {
-  color: rgb(255, 184, 157);
+  color: rgb(255, 184, 157) !important;
 }
