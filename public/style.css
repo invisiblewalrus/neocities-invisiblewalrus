@@ -63,10 +63,6 @@ li {
   padding-top: .5em;
 }
 
-.unstlyled-list {
-  list-style: none;
-}
-
 .quote {
   max-width: 30em;
   font-style: italic;
